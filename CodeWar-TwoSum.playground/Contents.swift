@@ -11,7 +11,7 @@ class Solution {
               let remain = target - numberA
               for (indexB, numberB) in numbers.enumerated() {
                   
-                  if (remain == numberB){
+                  if (remain == numberB && indexA != indexB){
                       pos1 = indexA
                       pos2 = indexB
                       break
