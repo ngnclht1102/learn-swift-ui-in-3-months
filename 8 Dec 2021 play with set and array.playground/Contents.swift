@@ -19,4 +19,4 @@ print(arrayA[1])
 print(arrayA[5])
 
 
-print(setA[0])
+
